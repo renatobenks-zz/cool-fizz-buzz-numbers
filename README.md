@@ -44,9 +44,12 @@ console output:
 ### Using in cli with Node.js:
 
 ````
-$ node cool-fizz-buzz-numbers/server 1 3
+// Inside lib enter with
+$ node ./src/server 1 3
+// or instead
+$ node ./node_modules/cool-fizz-buzz-numbers/src/server 1 3
 
-// Output:
+// Reroduce output:
 The fizz buzz numbers are: 1, 2, lucky.
 
 See sum for each type: {
