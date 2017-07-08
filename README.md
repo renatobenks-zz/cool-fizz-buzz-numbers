@@ -13,7 +13,7 @@ $ npm i --save cool-fizz-buzz-numbers
 Working with:
 ---
 
-`````gwt javascript
+`````javascript
 // Import your nice tool!
 import FIZZ_BUZZ from 'cool-fizz-buzz-numbers'
 
@@ -28,15 +28,16 @@ console.log(FIZZ_BUZZ.numbers);
 // console output: [1, 2, 'lucky', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 'lucky', 14, 'fizzbuzz']
 
 console.log(FIZZ_BUZZ.count);
+
 /*
 console output: 
-	Object: {
-		integers: 7,
-		lucky: 2,
-		fizz: 3,
-		buzz: 2,
-		fizzbuzz: 1
-	}
+  Object: {
+    integers: 7,
+    lucky: 2,
+    fizz: 3,
+    buzz: 2,
+    fizzbuzz: 1
+  }
 */
 `````
 
@@ -49,10 +50,10 @@ $ node cool-fizz-buzz-numbers/server 1 3
 The fizz buzz numbers are: 1, 2, lucky.
 
 See sum for each type: {
-	"integers": 2,
-	"lucky": 1,
-	"fizz": 0,
-	"buzz": 0,
-	"fizzbuzz": 0
+  "integers": 2,
+  "lucky": 1,
+  "fizz": 0,
+  "buzz": 0,
+  "fizzbuzz": 0
 }
 ````
